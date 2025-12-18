@@ -1,4 +1,4 @@
-"""Tools module for PostmanMCP"""
+"""Tools module for TalkAPI - Built by RAJ"""
 
 from .make_request import MakeRequestTool
 from .decode_jwt import DecodeJWTTool

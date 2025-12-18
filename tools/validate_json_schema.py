@@ -1,4 +1,4 @@
-"""validate_json_schema tool - JSON schema validator"""
+"""validate_json_schema tool - JSON schema validator (TalkAPI by RAJ)"""
 
 import json
 from typing import Any, Dict

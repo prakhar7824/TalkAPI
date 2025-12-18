@@ -1,4 +1,4 @@
-"""make_request tool - HTTP request handler"""
+"""make_request tool - HTTP request handler (TalkAPI by RAJ)"""
 
 import json
 import sys

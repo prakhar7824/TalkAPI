@@ -1,4 +1,4 @@
-"""decode_jwt tool - JWT decoder with expiration checking"""
+"""decode_jwt tool - JWT decoder with expiration checking (TalkAPI by RAJ)"""
 
 import json
 import base64

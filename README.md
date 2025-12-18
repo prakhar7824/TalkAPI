@@ -1,6 +1,10 @@
-# PostmanMCP - Conversational API Testing
+# TalkAPI - Conversational API Testing
 
-An MCP (Model Context Protocol) server that replaces Postman with conversational API testing. Test your APIs through natural language conversations with an LLM.
+**Built by RAJ**
+
+TalkAPI is an MCP (Model Context Protocol) server that revolutionizes API testing by replacing traditional tools like Postman with intelligent, conversational workflows. Instead of manually crafting requests, switching between applications, and managing authentication tokens, TalkAPI enables you to test your APIs through natural language conversations directly within Claude Desktop.
+
+The server intelligently handles complex scenarios like authentication flows, token extraction, request chaining, and response validation—all through simple conversational prompts. Whether you're testing local development APIs, debugging authentication issues, or validating API contracts, TalkAPI transforms the tedious process of API testing into a seamless, conversational experience. The LLM automatically extracts tokens from login responses, adds them to subsequent requests, analyzes error messages to suggest fixes, and validates responses against JSON schemas—all without you having to write a single line of configuration code.
 
 ![Claude Desktop Integration](screenshot.png)
 
@@ -42,10 +46,10 @@ The server should start and wait for connections. Press Ctrl+C to stop.
 ```json
 {
   "mcpServers": {
-    "postman-mcp": {
+    "talk-api": {
       "command": "python",
-      "args": ["C:\\Projects2\\PostmanMCP\\server.py"],
-      "cwd": "C:\\Projects2\\PostmanMCP"
+      "args": ["C:\\Projects2\\TalkAPI\\server.py"],
+      "cwd": "C:\\Projects2\\TalkAPI"
     }
   }
 }
@@ -55,7 +59,7 @@ The server should start and wait for connections. Press Ctrl+C to stop.
 
 3. Restart Claude Desktop completely.
 
-4. Verify connection: In Claude Desktop, go to Settings → Developer. You should see "postman-mcp" listed and connected.
+4. Verify connection: In Claude Desktop, go to Settings → Developer. You should see "talk-api" listed and connected.
 
 ## Making Requests
 
@@ -118,7 +122,7 @@ pip install -r requirements.txt
 ## Project Structure
 
 ```
-PostmanMCP/
+TalkAPI/
 ├── server.py              # Main MCP server
 ├── tools/                 # Tool implementations
 │   ├── make_request.py
@@ -127,6 +131,10 @@ PostmanMCP/
 ├── utils.py               # Utility functions
 └── requirements.txt       # Dependencies
 ```
+
+## Author
+
+**RAJ** - Built with ❤️ for the developer community
 
 ## License
 

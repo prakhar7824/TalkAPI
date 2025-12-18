@@ -1,4 +1,4 @@
-"""Utility functions for PostmanMCP"""
+"""Utility functions for TalkAPI - Built by RAJ"""
 
 import json
 import os

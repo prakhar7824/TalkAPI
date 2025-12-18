@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
-PostmanMCP - MCP Server for API Testing
-Replaces Postman with conversational API testing via LLM
+TalkAPI - MCP Server for Conversational API Testing
+Built by RAJ
+
+Replaces Postman with conversational API testing via LLM.
+Test your APIs through natural language conversations without leaving your code editor.
 """
 
 import asyncio
@@ -18,7 +21,7 @@ from tools import (
 from utils import setup_logging
 
 # Initialize server
-app = Server("postman-mcp")
+app = Server("talk-api")
 
 # Register tools
 @app.list_tools()
