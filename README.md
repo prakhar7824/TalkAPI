@@ -1,3 +1,14 @@
+# TalkAPI 🚀
+> **Conversational API Testing via Model Context Protocol (MCP)**
+
+[![MCP Badge](https://lobehub.com/badge/mcp/prakhar7824-talkapi)](https://lobehub.com/mcp/prakhar7824-talkapi)
+![MCP Powered](https://img.shields.io/badge/Powered%20by-MCP-8B5CF6?logo=anthropic&logoColor=white)
+![Timeline](https://img.shields.io/badge/Pioneered-Dec%202025-orange)
+![License](https://img.shields.io/github/license/prakhar7824/TalkAPI?color=blue)
+
+---
+
+
 # TalkAPI - Conversational API Testing
 
 **Built by RAJ**
